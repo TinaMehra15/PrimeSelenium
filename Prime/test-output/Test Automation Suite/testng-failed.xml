@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Automation Suite]">
+  <test thread-count="5" name="Order(failed)">
+    <groups>
+      <run>
+        <include name="Amend Order"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.CancelOrderTest">
+        <methods>
+          <include name="cancelOrder"/>
+        </methods>
+      </class> <!-- com.test.CancelOrderTest -->
+    </classes>
+  </test> <!-- Order(failed) -->
+</suite> <!-- Failed suite [Test Automation Suite] -->

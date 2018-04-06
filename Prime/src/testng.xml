@@ -1,0 +1,11 @@
+
+<suite name ="Test Automation Suite">
+<test name="Order">
+<classes name ="Order- Place, Cancel and Amend">
+	<class name ="com.test.PlaceOrderTest"/>
+	<class name="com.test.CancelOrderTest"/>
+	<class name ="com.test.AmendOrderTest"/>
+	<class name="com.test.CancelOrderTest"/>
+</classes>
+</test>
+</suite>
